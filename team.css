@@ -1,0 +1,78 @@
+.team{
+    margin-top: 100px !important;
+    height: 100vh;
+}
+
+.team-card{
+    border-radius: 2rem !important;
+}
+
+.team-img{
+    border-radius: 2rem 2rem 0rem 0rem !important;
+}
+
+.team-text h3{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d4459;
+    margin-bottom: 20px;
+}
+
+.team-text h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 35px;
+    color: #4632da;
+}
+
+.team-btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #ffff !important;
+    border-radius: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-bottom: 10px !important;
+    padding-top: 7px !important;
+    background-color: #08ccd3 !important;
+}
+
+.team-btn:hover{
+    background-color: #4632da !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .team-text h3,h2{
+        text-align:center;
+    }
+    .btn-div{
+        display: flex;
+        justify-content: center;
+    }
+    .card-div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .team-card{
+        width: 15rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .team-text h2{
+        font-size: 20px !important;
+    }
+
+    .team-text h3{
+        font-size: 12px !important;
+    }
+
+    .team-btn{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 12px !important;
+    }
+}
